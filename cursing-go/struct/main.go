@@ -5,9 +5,9 @@ import (
 )
 
 type User struct {
-	name  string
-	age   uint8
-	adres Adress
+	name string
+	age  uint8
+	Adress
 }
 type Adress struct {
 	city   string

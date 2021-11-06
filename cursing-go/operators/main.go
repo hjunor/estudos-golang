@@ -25,4 +25,14 @@ func main() {
 	sum, sub, mult, div, mod := operations(2, 5)
 
 	fmt.Println(sum, sub, mult, div, mod)
+
+	//operation atributes
+
+	var variable string = "that is number"
+	fmt.Println(variable)
+	//variable = "that is string"
+
+	variableThooseDays := "that is string toose day"
+	fmt.Println(variableThooseDays)
+	//variableThooseDays = "that is string toose day"
 }
