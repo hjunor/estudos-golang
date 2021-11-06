@@ -2,7 +2,10 @@ package main
 
 import "fmt"
 
-var number int = 2000
+const (
+	number int = 255
+	name       = "Heberth"
+)
 
 func main() {
 	if 255 == number {
