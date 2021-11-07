@@ -30,4 +30,18 @@ func main() {
 	fmt.Println(reflect.TypeOf(array))
 	slice = append(slice, "New")
 	fmt.Println(slice)
+
+	//array interno
+
+	slice3 := make([]float32, 5, 6)
+	fmt.Println(slice3)
+	slice3 = append(slice3, 1.3)
+	slice3 = append(slice3, 1.4)
+	fmt.Println(len(slice3))
+	fmt.Println(cap(slice3))
+
+	slice4 := make([]float32, 5)
+	fmt.Println(len(slice4))
+	fmt.Println(cap(slice4))
+
 }
