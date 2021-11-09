@@ -28,4 +28,14 @@ func main() {
 	for i, char := range "Go lang" {
 		fmt.Println(i, string(char))
 	}
+
+	user := map[string]string{
+		"name":  "João",
+		"email": "mail@mail.com",
+	}
+
+	for key, value := range user {
+		fmt.Println(key, value)
+	}
+
 }
