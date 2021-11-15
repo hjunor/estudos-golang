@@ -1,15 +1,19 @@
 package main
 
 import "fmt"
-
+type person struct {
+  firstName string
+  lastname string
+  age int
+}
 type Employee interface {
 	salary(value int) int
 	lastName(value string)
 }
 
-type Age int
 
-func (a Age) lastName(value string) {
+func (a Age) lastName() {
+  
 	fmt.Println(a)
 	fmt.Println(value)
 
